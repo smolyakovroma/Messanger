@@ -18,6 +18,9 @@ import UIKit
     @IBInspectable var leftMaskedCorners :Bool = false
     @IBInspectable var rightMaskedCorners :Bool = false
     
+    @IBInspectable var borderWidth :CGFloat = 0
+    @IBInspectable var useBorderColor :Bool = false
+    
     override func layoutSubviews() {
         layer.cornerRadius = cornerradius
         layer.shadowColor = shadowColor.cgColor
@@ -25,6 +28,10 @@ import UIKit
         let shadowPath = UIBezierPath(roundedRect: bounds, cornerRadius: cornerradius)
         layer.shadowPath = shadowPath.cgPath
         layer.shadowOpacity = Float(shadowOpacity)
+        layer.borderWidth = borderWidth
+        if useBorderColor {
+        layer.borderColor = UIColor(red:27/255, green:63/255, blue:255/255, alpha: 1).cgColor
+        }
         if leftMaskedCorners {
             layer.maskedCorners = [.layerMaxXMaxYCorner, .layerMaxXMinYCorner, .layerMinXMaxYCorner]
         }

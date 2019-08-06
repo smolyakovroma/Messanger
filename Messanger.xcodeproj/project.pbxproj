@@ -7,10 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		122BB28122F60A2E0046EC44 /* SearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122BB28022F60A2E0046EC44 /* SearchCollectionViewCell.swift */; };
+		122BB28322F61BDF0046EC44 /* TextCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122BB28222F61BDF0046EC44 /* TextCollectionViewCell.swift */; };
+		122BB28522F757110046EC44 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12C13D7622F0D5E9006030B0 /* Roboto-Black.ttf */; };
+		122BB28622F757110046EC44 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12C13D7522F0D5E9006030B0 /* Roboto-BlackItalic.ttf */; };
+		122BB28722F757110046EC44 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12C13D7B22F0D5E9006030B0 /* Roboto-Bold.ttf */; };
+		122BB28822F757110046EC44 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12C13D7322F0D5E8006030B0 /* Roboto-BoldItalic.ttf */; };
+		122BB28922F757110046EC44 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12C13D7222F0D5E8006030B0 /* Roboto-Italic.ttf */; };
+		122BB28A22F757110046EC44 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12C13D7822F0D5E9006030B0 /* Roboto-Light.ttf */; };
+		122BB28B22F757110046EC44 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12C13D6D22F0D5E8006030B0 /* Roboto-LightItalic.ttf */; };
+		122BB28C22F757110046EC44 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12C13D7022F0D5E8006030B0 /* Roboto-Medium.ttf */; };
+		122BB28D22F757110046EC44 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12C13D6F22F0D5E8006030B0 /* Roboto-MediumItalic.ttf */; };
+		122BB28E22F757110046EC44 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12C13D7122F0D5E8006030B0 /* Roboto-Regular.ttf */; };
+		122BB28F22F757110046EC44 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12C13D6E22F0D5E8006030B0 /* Roboto-Thin.ttf */; };
+		122BB29022F757110046EC44 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12C13D7422F0D5E8006030B0 /* Roboto-ThinItalic.ttf */; };
+		122BB29122F757110046EC44 /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12C13D7722F0D5E9006030B0 /* RobotoCondensed-Bold.ttf */; };
+		122BB29222F757110046EC44 /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12C13D7C22F0D5E9006030B0 /* RobotoCondensed-BoldItalic.ttf */; };
+		122BB29322F757110046EC44 /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12C13D7A22F0D5E9006030B0 /* RobotoCondensed-Italic.ttf */; };
+		122BB29422F757110046EC44 /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12C13D7922F0D5E9006030B0 /* RobotoCondensed-Light.ttf */; };
+		122BB29522F757110046EC44 /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12C13D7D22F0D5EA006030B0 /* RobotoCondensed-LightItalic.ttf */; };
+		122BB29622F757110046EC44 /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12C13D7E22F0D5EA006030B0 /* RobotoCondensed-Regular.ttf */; };
+		122BB29822F75ED70046EC44 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122BB29722F75ED70046EC44 /* SettingsViewController.swift */; };
+		122EF0FF22F77649006132FF /* EditUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122EF0FE22F77649006132FF /* EditUsernameViewController.swift */; };
+		122EF10122F875EA006132FF /* ChangeNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122EF10022F875EA006132FF /* ChangeNumberViewController.swift */; };
+		122EF10322F8C81A006132FF /* InterestSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122EF10222F8C81A006132FF /* InterestSettingsViewController.swift */; };
+		122EF10522F9BDFE006132FF /* ArchiveDocumentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122EF10422F9BDFE006132FF /* ArchiveDocumentsViewController.swift */; };
+		122EF10722F9BE13006132FF /* ArchiveImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122EF10622F9BE13006132FF /* ArchiveImagesViewController.swift */; };
+		122EF10922F9C812006132FF /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122EF10822F9C812006132FF /* ImageCollectionViewCell.swift */; };
+		122EF10D22F9F9BB006132FF /* MediaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122EF10C22F9F9BB006132FF /* MediaTableViewCell.swift */; };
+		122EF10F22FA1615006132FF /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122EF10E22FA1615006132FF /* SectionHeaderView.swift */; };
 		127787D422F0B5440082F3C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127787D322F0B5440082F3C3 /* AppDelegate.swift */; };
 		127787D922F0B5440082F3C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 127787D722F0B5440082F3C3 /* Main.storyboard */; };
 		127787DE22F0B5450082F3C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 127787DC22F0B5450082F3C3 /* LaunchScreen.storyboard */; };
 		12B8FCD822F5DCF90001D55F /* DialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8FCD722F5DCF90001D55F /* DialogViewController.swift */; };
+		12B8FCDA22F601E20001D55F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8FCD922F601E20001D55F /* SearchViewController.swift */; };
 		12C13D6522F0BB22006030B0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C13D6422F0BB22006030B0 /* CardView.swift */; };
 		12C13D6822F0C18A006030B0 /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C13D6722F0C18A006030B0 /* ChatsViewController.swift */; };
 		12C13D6B22F0C3CB006030B0 /* ChatsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C13D6A22F0C3CB006030B0 /* ChatsTableViewCell.swift */; };
@@ -20,12 +50,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		122BB28022F60A2E0046EC44 /* SearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewCell.swift; sourceTree = "<group>"; };
+		122BB28222F61BDF0046EC44 /* TextCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCollectionViewCell.swift; sourceTree = "<group>"; };
+		122BB29722F75ED70046EC44 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		122EF0FE22F77649006132FF /* EditUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUsernameViewController.swift; sourceTree = "<group>"; };
+		122EF10022F875EA006132FF /* ChangeNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeNumberViewController.swift; sourceTree = "<group>"; };
+		122EF10222F8C81A006132FF /* InterestSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestSettingsViewController.swift; sourceTree = "<group>"; };
+		122EF10422F9BDFE006132FF /* ArchiveDocumentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveDocumentsViewController.swift; sourceTree = "<group>"; };
+		122EF10622F9BE13006132FF /* ArchiveImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveImagesViewController.swift; sourceTree = "<group>"; };
+		122EF10822F9C812006132FF /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		122EF10C22F9F9BB006132FF /* MediaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaTableViewCell.swift; sourceTree = "<group>"; };
+		122EF10E22FA1615006132FF /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
 		127787D022F0B5440082F3C3 /* Messanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		127787D322F0B5440082F3C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		127787D822F0B5440082F3C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		127787DD22F0B5450082F3C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		127787DF22F0B5450082F3C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12B8FCD722F5DCF90001D55F /* DialogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogViewController.swift; sourceTree = "<group>"; };
+		12B8FCD922F601E20001D55F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		12C13D6422F0BB22006030B0 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		12C13D6722F0C18A006030B0 /* ChatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
 		12C13D6A22F0C3CB006030B0 /* ChatsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsTableViewCell.swift; sourceTree = "<group>"; };
@@ -63,6 +105,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		122BB28422F7564B0046EC44 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				12C13D7622F0D5E9006030B0 /* Roboto-Black.ttf */,
+				12C13D7522F0D5E9006030B0 /* Roboto-BlackItalic.ttf */,
+				12C13D7B22F0D5E9006030B0 /* Roboto-Bold.ttf */,
+				12C13D7322F0D5E8006030B0 /* Roboto-BoldItalic.ttf */,
+				12C13D7222F0D5E8006030B0 /* Roboto-Italic.ttf */,
+				12C13D7822F0D5E9006030B0 /* Roboto-Light.ttf */,
+				12C13D6D22F0D5E8006030B0 /* Roboto-LightItalic.ttf */,
+				12C13D7022F0D5E8006030B0 /* Roboto-Medium.ttf */,
+				12C13D6F22F0D5E8006030B0 /* Roboto-MediumItalic.ttf */,
+				12C13D7122F0D5E8006030B0 /* Roboto-Regular.ttf */,
+				12C13D6E22F0D5E8006030B0 /* Roboto-Thin.ttf */,
+				12C13D7422F0D5E8006030B0 /* Roboto-ThinItalic.ttf */,
+				12C13D7722F0D5E9006030B0 /* RobotoCondensed-Bold.ttf */,
+				12C13D7C22F0D5E9006030B0 /* RobotoCondensed-BoldItalic.ttf */,
+				12C13D7A22F0D5E9006030B0 /* RobotoCondensed-Italic.ttf */,
+				12C13D7922F0D5E9006030B0 /* RobotoCondensed-Light.ttf */,
+				12C13D7D22F0D5EA006030B0 /* RobotoCondensed-LightItalic.ttf */,
+				12C13D7E22F0D5EA006030B0 /* RobotoCondensed-Regular.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		127787C722F0B5440082F3C3 = {
 			isa = PBXGroup;
 			children = (
@@ -82,7 +149,7 @@
 		127787D222F0B5440082F3C3 /* Messanger */ = {
 			isa = PBXGroup;
 			children = (
-				12C13D6C22F0D5D9006030B0 /* Font-Roboto */,
+				122BB28422F7564B0046EC44 /* Resources */,
 				12C13D6622F0C16E006030B0 /* Controller */,
 				127787E522F0BAE40082F3C3 /* Custom View */,
 				127787D322F0B5440082F3C3 /* AppDelegate.swift */,
@@ -108,7 +175,14 @@
 				12C13D6922F0C3B2006030B0 /* Cell */,
 				12C13D6722F0C18A006030B0 /* ChatsViewController.swift */,
 				12B8FCD722F5DCF90001D55F /* DialogViewController.swift */,
+				12B8FCD922F601E20001D55F /* SearchViewController.swift */,
+				122EF10422F9BDFE006132FF /* ArchiveDocumentsViewController.swift */,
+				122EF10222F8C81A006132FF /* InterestSettingsViewController.swift */,
+				122EF10022F875EA006132FF /* ChangeNumberViewController.swift */,
+				122EF10622F9BE13006132FF /* ArchiveImagesViewController.swift */,
 				12C13D8322F20A57006030B0 /* ChatViewController.swift */,
+				122EF0FE22F77649006132FF /* EditUsernameViewController.swift */,
+				122BB29722F75ED70046EC44 /* SettingsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -118,33 +192,13 @@
 			children = (
 				12C13D6A22F0C3CB006030B0 /* ChatsTableViewCell.swift */,
 				12C13D8522F20C81006030B0 /* ChatTableViewCell.swift */,
+				122EF10C22F9F9BB006132FF /* MediaTableViewCell.swift */,
+				122BB28222F61BDF0046EC44 /* TextCollectionViewCell.swift */,
+				122EF10822F9C812006132FF /* ImageCollectionViewCell.swift */,
+				122BB28022F60A2E0046EC44 /* SearchCollectionViewCell.swift */,
+				122EF10E22FA1615006132FF /* SectionHeaderView.swift */,
 			);
 			path = Cell;
-			sourceTree = "<group>";
-		};
-		12C13D6C22F0D5D9006030B0 /* Font-Roboto */ = {
-			isa = PBXGroup;
-			children = (
-				12C13D7622F0D5E9006030B0 /* Roboto-Black.ttf */,
-				12C13D7522F0D5E9006030B0 /* Roboto-BlackItalic.ttf */,
-				12C13D7B22F0D5E9006030B0 /* Roboto-Bold.ttf */,
-				12C13D7322F0D5E8006030B0 /* Roboto-BoldItalic.ttf */,
-				12C13D7222F0D5E8006030B0 /* Roboto-Italic.ttf */,
-				12C13D7822F0D5E9006030B0 /* Roboto-Light.ttf */,
-				12C13D6D22F0D5E8006030B0 /* Roboto-LightItalic.ttf */,
-				12C13D7022F0D5E8006030B0 /* Roboto-Medium.ttf */,
-				12C13D6F22F0D5E8006030B0 /* Roboto-MediumItalic.ttf */,
-				12C13D7122F0D5E8006030B0 /* Roboto-Regular.ttf */,
-				12C13D6E22F0D5E8006030B0 /* Roboto-Thin.ttf */,
-				12C13D7422F0D5E8006030B0 /* Roboto-ThinItalic.ttf */,
-				12C13D7722F0D5E9006030B0 /* RobotoCondensed-Bold.ttf */,
-				12C13D7C22F0D5E9006030B0 /* RobotoCondensed-BoldItalic.ttf */,
-				12C13D7A22F0D5E9006030B0 /* RobotoCondensed-Italic.ttf */,
-				12C13D7922F0D5E9006030B0 /* RobotoCondensed-Light.ttf */,
-				12C13D7D22F0D5EA006030B0 /* RobotoCondensed-LightItalic.ttf */,
-				12C13D7E22F0D5EA006030B0 /* RobotoCondensed-Regular.ttf */,
-			);
-			path = "Font-Roboto";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +259,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				122BB28522F757110046EC44 /* Roboto-Black.ttf in Resources */,
+				122BB28622F757110046EC44 /* Roboto-BlackItalic.ttf in Resources */,
+				122BB28722F757110046EC44 /* Roboto-Bold.ttf in Resources */,
+				122BB28822F757110046EC44 /* Roboto-BoldItalic.ttf in Resources */,
+				122BB28922F757110046EC44 /* Roboto-Italic.ttf in Resources */,
+				122BB28A22F757110046EC44 /* Roboto-Light.ttf in Resources */,
+				122BB28B22F757110046EC44 /* Roboto-LightItalic.ttf in Resources */,
+				122BB28C22F757110046EC44 /* Roboto-Medium.ttf in Resources */,
+				122BB28D22F757110046EC44 /* Roboto-MediumItalic.ttf in Resources */,
+				122BB28E22F757110046EC44 /* Roboto-Regular.ttf in Resources */,
+				122BB28F22F757110046EC44 /* Roboto-Thin.ttf in Resources */,
+				122BB29022F757110046EC44 /* Roboto-ThinItalic.ttf in Resources */,
+				122BB29122F757110046EC44 /* RobotoCondensed-Bold.ttf in Resources */,
+				122BB29222F757110046EC44 /* RobotoCondensed-BoldItalic.ttf in Resources */,
+				122BB29322F757110046EC44 /* RobotoCondensed-Italic.ttf in Resources */,
+				122BB29422F757110046EC44 /* RobotoCondensed-Light.ttf in Resources */,
+				122BB29522F757110046EC44 /* RobotoCondensed-LightItalic.ttf in Resources */,
+				122BB29622F757110046EC44 /* RobotoCondensed-Regular.ttf in Resources */,
 				127787DE22F0B5450082F3C3 /* LaunchScreen.storyboard in Resources */,
 				12C13D8022F1A86F006030B0 /* Assets.xcassets in Resources */,
 				127787D922F0B5440082F3C3 /* Main.storyboard in Resources */,
@@ -218,13 +290,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				122EF10922F9C812006132FF /* ImageCollectionViewCell.swift in Sources */,
 				12C13D6B22F0C3CB006030B0 /* ChatsTableViewCell.swift in Sources */,
 				12C13D6522F0BB22006030B0 /* CardView.swift in Sources */,
+				122BB29822F75ED70046EC44 /* SettingsViewController.swift in Sources */,
+				122EF10D22F9F9BB006132FF /* MediaTableViewCell.swift in Sources */,
+				12B8FCDA22F601E20001D55F /* SearchViewController.swift in Sources */,
+				122EF10122F875EA006132FF /* ChangeNumberViewController.swift in Sources */,
 				12C13D6822F0C18A006030B0 /* ChatsViewController.swift in Sources */,
 				12B8FCD822F5DCF90001D55F /* DialogViewController.swift in Sources */,
+				122EF10F22FA1615006132FF /* SectionHeaderView.swift in Sources */,
+				122EF10322F8C81A006132FF /* InterestSettingsViewController.swift in Sources */,
+				122EF10522F9BDFE006132FF /* ArchiveDocumentsViewController.swift in Sources */,
+				122EF10722F9BE13006132FF /* ArchiveImagesViewController.swift in Sources */,
+				122BB28322F61BDF0046EC44 /* TextCollectionViewCell.swift in Sources */,
 				12C13D8622F20C81006030B0 /* ChatTableViewCell.swift in Sources */,
+				122EF0FF22F77649006132FF /* EditUsernameViewController.swift in Sources */,
 				12C13D8422F20A57006030B0 /* ChatViewController.swift in Sources */,
 				127787D422F0B5440082F3C3 /* AppDelegate.swift in Sources */,
+				122BB28122F60A2E0046EC44 /* SearchCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

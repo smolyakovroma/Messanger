@@ -256,29 +256,6 @@ extension ChatViewController: UITableViewDelegate, UITableViewDataSource {
         
     }
     
-    //    // set view for footer
-    //    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
-    //        let footerView = UIView(frame: CGRect(x: 0, y: 0, width: tableView.frame.size.width, height: 100))
-    //        footerView.backgroundColor = UIColor(red: 0.98, green: 0.98, blue: 0.98, alpha: 1)
-    //        return footerView
-    //    }
-    
-    // set height for footer
-    //    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-    //        return 100
-    //    }
+
 }
 
-//cell.selectionStyle = .none
-//
-//if message.senderId == Constants.id {
-//    cell.leftMargin.constant = UIScreen.main.bounds.width / 12
-//    cell.rightMargin.constant = 5
-//    cell.viewMsg.backgroundColor = UIColor(red: 200.0/255.0, green:
-//        240.0/255.0, blue: 200.0/255.0, alpha: 1.0)
-//    //               cell.viewMsg.backgroundColor = .init(red: 200, green: 240, blue: 200, alpha: 1)
-//}else{
-//    cell.leftMargin.constant = 5
-//    cell.rightMargin.constant = UIScreen.main.bounds.width / 12
-//    cell.viewMsg.backgroundColor = .white
-//}
