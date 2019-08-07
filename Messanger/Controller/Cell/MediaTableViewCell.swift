@@ -11,6 +11,8 @@ import UIKit
 class MediaTableViewCell: UITableViewCell {
 
    
+    @IBOutlet weak var labelSelect: UILabel!
+    @IBOutlet weak var imgSelect: UIImageView!
     @IBOutlet weak var img: UIImageView!
     @IBOutlet weak var labelText: UILabel!
     @IBOutlet weak var labelSubtext: UILabel!

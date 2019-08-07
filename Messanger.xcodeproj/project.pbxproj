@@ -36,6 +36,9 @@
 		122EF10922F9C812006132FF /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122EF10822F9C812006132FF /* ImageCollectionViewCell.swift */; };
 		122EF10D22F9F9BB006132FF /* MediaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122EF10C22F9F9BB006132FF /* MediaTableViewCell.swift */; };
 		122EF10F22FA1615006132FF /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122EF10E22FA1615006132FF /* SectionHeaderView.swift */; };
+		122EF11122FAF635006132FF /* SelectDocumentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122EF11022FAF635006132FF /* SelectDocumentsViewController.swift */; };
+		122EF11322FB5DCD006132FF /* DialogSelectDocumentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122EF11222FB5DCD006132FF /* DialogSelectDocumentsViewController.swift */; };
+		122EF11522FB5E3E006132FF /* DialogSelectImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122EF11422FB5E3E006132FF /* DialogSelectImagesViewController.swift */; };
 		127787D422F0B5440082F3C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127787D322F0B5440082F3C3 /* AppDelegate.swift */; };
 		127787D922F0B5440082F3C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 127787D722F0B5440082F3C3 /* Main.storyboard */; };
 		127787DE22F0B5450082F3C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 127787DC22F0B5450082F3C3 /* LaunchScreen.storyboard */; };
@@ -61,6 +64,9 @@
 		122EF10822F9C812006132FF /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		122EF10C22F9F9BB006132FF /* MediaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaTableViewCell.swift; sourceTree = "<group>"; };
 		122EF10E22FA1615006132FF /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		122EF11022FAF635006132FF /* SelectDocumentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDocumentsViewController.swift; sourceTree = "<group>"; };
+		122EF11222FB5DCD006132FF /* DialogSelectDocumentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogSelectDocumentsViewController.swift; sourceTree = "<group>"; };
+		122EF11422FB5E3E006132FF /* DialogSelectImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogSelectImagesViewController.swift; sourceTree = "<group>"; };
 		127787D022F0B5440082F3C3 /* Messanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		127787D322F0B5440082F3C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		127787D822F0B5440082F3C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -178,6 +184,9 @@
 				12B8FCD922F601E20001D55F /* SearchViewController.swift */,
 				122EF10422F9BDFE006132FF /* ArchiveDocumentsViewController.swift */,
 				122EF10222F8C81A006132FF /* InterestSettingsViewController.swift */,
+				122EF11022FAF635006132FF /* SelectDocumentsViewController.swift */,
+				122EF11422FB5E3E006132FF /* DialogSelectImagesViewController.swift */,
+				122EF11222FB5DCD006132FF /* DialogSelectDocumentsViewController.swift */,
 				122EF10022F875EA006132FF /* ChangeNumberViewController.swift */,
 				122EF10622F9BE13006132FF /* ArchiveImagesViewController.swift */,
 				12C13D8322F20A57006030B0 /* ChatViewController.swift */,
@@ -292,6 +301,7 @@
 			files = (
 				122EF10922F9C812006132FF /* ImageCollectionViewCell.swift in Sources */,
 				12C13D6B22F0C3CB006030B0 /* ChatsTableViewCell.swift in Sources */,
+				122EF11522FB5E3E006132FF /* DialogSelectImagesViewController.swift in Sources */,
 				12C13D6522F0BB22006030B0 /* CardView.swift in Sources */,
 				122BB29822F75ED70046EC44 /* SettingsViewController.swift in Sources */,
 				122EF10D22F9F9BB006132FF /* MediaTableViewCell.swift in Sources */,
@@ -301,7 +311,9 @@
 				12B8FCD822F5DCF90001D55F /* DialogViewController.swift in Sources */,
 				122EF10F22FA1615006132FF /* SectionHeaderView.swift in Sources */,
 				122EF10322F8C81A006132FF /* InterestSettingsViewController.swift in Sources */,
+				122EF11122FAF635006132FF /* SelectDocumentsViewController.swift in Sources */,
 				122EF10522F9BDFE006132FF /* ArchiveDocumentsViewController.swift in Sources */,
+				122EF11322FB5DCD006132FF /* DialogSelectDocumentsViewController.swift in Sources */,
 				122EF10722F9BE13006132FF /* ArchiveImagesViewController.swift in Sources */,
 				122BB28322F61BDF0046EC44 /* TextCollectionViewCell.swift in Sources */,
 				12C13D8622F20C81006030B0 /* ChatTableViewCell.swift in Sources */,
