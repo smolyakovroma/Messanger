@@ -71,7 +71,10 @@ extension SelectDocumentsViewController: UITableViewDelegate, UITableViewDataSou
     
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let cell = tableView.cellForRow(at: indexPath) as! MediaTableViewCell
+     
         docList[indexPath.row].3 = !docList[indexPath.row].3
+        
         if docList[indexPath.row].3 {
             selectedCounter -= 1
         } else {
@@ -85,7 +88,9 @@ extension SelectDocumentsViewController: UITableViewDelegate, UITableViewDataSou
             viewBottomSelect.isHidden = true
             viewBottomMenu.isHidden = false
         }
-        tableView.reloadData()
+        cell.imgSelect.isHidden = docList[indexPath.row].3
+        cell.labelSelect.isHidden = docList[indexPath.row].3
+//        tableView.reloadData()
         
     }
     

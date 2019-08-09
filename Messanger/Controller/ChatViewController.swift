@@ -47,7 +47,26 @@ class ChatViewController: UIViewController {
     var flShowExtraFooter = false
     
 
+    @IBOutlet weak var viewFooter: CardView!
+    //Record footer
+    @IBOutlet weak var viewRecord: UIView!
+    @IBOutlet weak var labelTimer: UILabel!
+    @IBOutlet weak var imgArrowLeft: UIImageView!
+    @IBOutlet weak var labelText: UILabel!
     
+    @IBOutlet weak var imgLock: UIImageView!
+    @IBOutlet weak var imgBigIcon: UIImageView!
+    
+    @IBAction func btnBigIconAction(_ sender: UIButton) {
+        viewFooter.isHidden = false
+        viewContextMenu.isHidden = true
+        viewRecord.isHidden = true
+        labelText.text = "CANCEL"
+        imgArrowLeft.isHidden = true
+        imgBigIcon.isHidden = true
+        imgBigIcon.image = UIImage(named: "icon_send_big")
+        imgLock.isHidden = true
+    }
     
     @IBOutlet weak var labelExtraText: UILabel!
     
@@ -144,6 +163,7 @@ class ChatViewController: UIViewController {
             self.leadingMessageEdit.isActive = true
             self.leadingMessageAttach.isActive = false
               self.imgVoiceSend.image = UIImage(named: "icon_send")
+        
 
 //        }
     }
@@ -179,11 +199,25 @@ class ChatViewController: UIViewController {
     }
     
     @IBAction func btnMuteAction(_ sender: UIButton) {
+        viewFooter.isHidden = true
           viewContextMenu.isHidden = true
+        viewRecord.isHidden = false
+        labelText.text = "Slide to cancel"
+        imgArrowLeft.isHidden = false
+        imgBigIcon.isHidden = false
+        imgBigIcon.image = UIImage(named: "icon_voice_big")
+        imgLock.isHidden = false
     }
     
     @IBAction func btnDeleteChatAction(_ sender: UIButton) {
-          viewContextMenu.isHidden = true
+        viewFooter.isHidden = true
+        viewContextMenu.isHidden = true
+        viewRecord.isHidden = false
+        labelText.text = "CANCEL"
+        imgArrowLeft.isHidden = true
+        imgBigIcon.isHidden = false
+        imgBigIcon.image = UIImage(named: "icon_send_big")
+        imgLock.isHidden = true
     }
     
     @objc func keyboardWillShow(sender: NSNotification) {

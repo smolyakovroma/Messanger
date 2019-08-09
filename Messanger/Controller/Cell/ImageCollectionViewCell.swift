@@ -12,4 +12,10 @@ class ImageCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var image: UIImageView!
     @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var imgSelect: UIImageView!
+    @IBOutlet weak var labelSelect: UILabel!
+    
+    @IBOutlet weak var heightImageConstraint: NSLayoutConstraint!
+    
+    @IBOutlet weak var widthImageConstraint: NSLayoutConstraint!
 }

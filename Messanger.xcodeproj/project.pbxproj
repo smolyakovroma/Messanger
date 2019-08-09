@@ -42,6 +42,9 @@
 		127787D422F0B5440082F3C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127787D322F0B5440082F3C3 /* AppDelegate.swift */; };
 		127787D922F0B5440082F3C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 127787D722F0B5440082F3C3 /* Main.storyboard */; };
 		127787DE22F0B5450082F3C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 127787DC22F0B5450082F3C3 /* LaunchScreen.storyboard */; };
+		129A29E522FC5A1A00AFC1F7 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129A29E422FC5A1A00AFC1F7 /* CameraViewController.swift */; };
+		129A29E722FC6B3F00AFC1F7 /* PhotoEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129A29E622FC6B3F00AFC1F7 /* PhotoEditViewController.swift */; };
+		129A29E922FC71A500AFC1F7 /* ColorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129A29E822FC71A500AFC1F7 /* ColorCollectionViewCell.swift */; };
 		12B8FCD822F5DCF90001D55F /* DialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8FCD722F5DCF90001D55F /* DialogViewController.swift */; };
 		12B8FCDA22F601E20001D55F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8FCD922F601E20001D55F /* SearchViewController.swift */; };
 		12C13D6522F0BB22006030B0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C13D6422F0BB22006030B0 /* CardView.swift */; };
@@ -72,6 +75,9 @@
 		127787D822F0B5440082F3C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		127787DD22F0B5450082F3C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		127787DF22F0B5450082F3C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		129A29E422FC5A1A00AFC1F7 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		129A29E622FC6B3F00AFC1F7 /* PhotoEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEditViewController.swift; sourceTree = "<group>"; };
+		129A29E822FC71A500AFC1F7 /* ColorCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCollectionViewCell.swift; sourceTree = "<group>"; };
 		12B8FCD722F5DCF90001D55F /* DialogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogViewController.swift; sourceTree = "<group>"; };
 		12B8FCD922F601E20001D55F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		12C13D6422F0BB22006030B0 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -185,8 +191,10 @@
 				122EF10422F9BDFE006132FF /* ArchiveDocumentsViewController.swift */,
 				122EF10222F8C81A006132FF /* InterestSettingsViewController.swift */,
 				122EF11022FAF635006132FF /* SelectDocumentsViewController.swift */,
+				129A29E422FC5A1A00AFC1F7 /* CameraViewController.swift */,
 				122EF11422FB5E3E006132FF /* DialogSelectImagesViewController.swift */,
 				122EF11222FB5DCD006132FF /* DialogSelectDocumentsViewController.swift */,
+				129A29E622FC6B3F00AFC1F7 /* PhotoEditViewController.swift */,
 				122EF10022F875EA006132FF /* ChangeNumberViewController.swift */,
 				122EF10622F9BE13006132FF /* ArchiveImagesViewController.swift */,
 				12C13D8322F20A57006030B0 /* ChatViewController.swift */,
@@ -202,6 +210,7 @@
 				12C13D6A22F0C3CB006030B0 /* ChatsTableViewCell.swift */,
 				12C13D8522F20C81006030B0 /* ChatTableViewCell.swift */,
 				122EF10C22F9F9BB006132FF /* MediaTableViewCell.swift */,
+				129A29E822FC71A500AFC1F7 /* ColorCollectionViewCell.swift */,
 				122BB28222F61BDF0046EC44 /* TextCollectionViewCell.swift */,
 				122EF10822F9C812006132FF /* ImageCollectionViewCell.swift */,
 				122BB28022F60A2E0046EC44 /* SearchCollectionViewCell.swift */,
@@ -302,7 +311,9 @@
 				122EF10922F9C812006132FF /* ImageCollectionViewCell.swift in Sources */,
 				12C13D6B22F0C3CB006030B0 /* ChatsTableViewCell.swift in Sources */,
 				122EF11522FB5E3E006132FF /* DialogSelectImagesViewController.swift in Sources */,
+				129A29E522FC5A1A00AFC1F7 /* CameraViewController.swift in Sources */,
 				12C13D6522F0BB22006030B0 /* CardView.swift in Sources */,
+				129A29E922FC71A500AFC1F7 /* ColorCollectionViewCell.swift in Sources */,
 				122BB29822F75ED70046EC44 /* SettingsViewController.swift in Sources */,
 				122EF10D22F9F9BB006132FF /* MediaTableViewCell.swift in Sources */,
 				12B8FCDA22F601E20001D55F /* SearchViewController.swift in Sources */,
@@ -321,6 +332,7 @@
 				12C13D8422F20A57006030B0 /* ChatViewController.swift in Sources */,
 				127787D422F0B5440082F3C3 /* AppDelegate.swift in Sources */,
 				122BB28122F60A2E0046EC44 /* SearchCollectionViewCell.swift in Sources */,
+				129A29E722FC6B3F00AFC1F7 /* PhotoEditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
